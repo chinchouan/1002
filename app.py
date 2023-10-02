@@ -2,4 +2,6 @@ def addsum(a, b):
     return a+b
 
 
-print(addsum(10, 20))
+x = int(input("Please input number1:\n"))
+y = int(input("Please input number2:\n"))
+print(addsum(x, y))
